@@ -1,0 +1,45 @@
+{
+  "message": "hello i18n !!",
+  "messages": {
+    "error": "Ошибка"
+  },
+  
+  "validation": {
+    "errors": {
+      "required": "Поле {field} обязательное",
+      "numeric": "Поле {field} должен быть числом",
+      "maxValue": "Значение поля {field} не может быть больше {max}",
+      "minValue": "Значение поля {field} не может быть меньше {min}"
+    }
+  },
+  "routes": {
+    "login": {
+      "login-title": "Вход",
+      "login-field": "Логин (email)",
+      "password-field": "Пароль",
+      "msgs": {
+        "email-required": "Заполните Email",
+        "email-incorrect": "Недействительный email",
+        "password-required": "Укажите пароль",
+        "password-invalid": "Пароль должен содержвать минмум 1  не буквенный символ и  1 цифру",
+        "password-min-length": "Длина пароля должен быть минимум 6 символов",
+        "password-is-wrong": "Пользователь с таким email и паролем не найден"
+      },
+      "actions": {
+        "login": "Войти"
+      }
+    },
+    "products": {
+      "properties": {
+        "name": "Название товара",
+        "category_id": "Категория",
+        "amount": "Стоимость",
+        "count": "Наличие",
+        "image": "Изображение"
+      },
+      "msgs": {
+        "rubles": "бесплатно | {count} рубль | {count} рубля | {count} рублей"
+      }
+    }
+  }
+}
